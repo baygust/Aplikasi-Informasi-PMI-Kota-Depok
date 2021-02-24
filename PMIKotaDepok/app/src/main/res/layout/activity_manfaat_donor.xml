@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pmikotadepok.ManfaatDonor">
+
+    <ScrollView
+        android:layout_width="404dp"
+        android:layout_height="592dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Menjaga kesehatan jantung"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menjaga_kesehatan_jantung_tingginya_kadar_zat_besi_dalam_darah_akan_membuat_seseorang_menjadi_lebih_rentan_terhadap_penyakit_jantung_zat_besi_yang_berlebihan_di_dalam_darah_bisa_menyebabkan_oksidasi_kolesterol_produk_oksidasi_tersebut_akan_menumpuk_pada_dinding_arteri_dan_ini_sama_dengan_memperbesar_peluang_terkena_serangan_jantung_dan_stroke_saat_kita_rutin_mendonorkan_darah_maka_jumlah_zat_besi_dalam_darah_bisa_lebih_stabil_ini_artinya_menurunkan_risiko_penyakit_jantung"></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meningkatkan_produksi_sel_darah_merah"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/donor_darah_juga_akan_membantu_tubuh_mengurangi_jumlah_sel_darah_merah_dalam_darah_tak_perlu_panik_dengan_berkurangnya_sel_darah_merah_karena_sumsum_tulang_belakang_akan_segera_mengisi_ulang_sel_darah_merah_yang_telah_hilang_hasilnya_sebagai_pendonor_kita_akan_mendapatkan_pasokan_darah_baru_setiap_kali_kita_mendonorkan_darah_oleh_karena_itu_donor_darah_menjadi_langkah_yang_baik_untuk_menstimulasi_pembuatan_darah_baru"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/membantu_menurunkan_berat_badan"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menjadi_donor_darah_adalah_salah_satu_metode_diet_dan_pembakaran_kalori_yang_ampuh_sebab_dengan_memberikan_sekitar_450_ml_darah_akan_membantu_proses_pembakaran_kalori_kira_kira_650_itu_adalah_jumlah_kalori_yang_banyak_untuk_membuat_pinggang_kita_ramping"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mendapatkan kesehatan psikologis"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menyumbangkan_hal_yang_tidak_ternilai_harganya_kepada_yang_membutuhkan_akan_membuat_kita_merasakan_kepuasan_psikologis_sebuah_penelitian_menemukan_orang_usia_lanjut_yang_rutin_menjadi_pendonor_darah_akan_merasakan_tetap_berenergi_dan_bugar"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mendeteksi penyakit serius"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Setiap kali kita ingin mendonorkan darah, prosedur standarnya adalah darah kita akan diperiksa dari berbagai macam penyakit seperti HIV, hepatitis B, hepatitis C, sifilis, dan malaria. Bagi yang menerima donor darah, ini adalah informasi penting untuk mengantisipasi penularan penyakit melalui transfusi darah. Sedangkan untuk kita, ini adalah rambu peringatan yang baik agar kita lebih perhatian terhadap kondisi kesehatan kita sendiri."></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
